@@ -7,7 +7,7 @@ box-sizing: border-box;
 header{
     width: 100;
     background-color: rgb(73, 163, 219);
-
-
+display: flex;
+justify-content: space-between;
 
 }
