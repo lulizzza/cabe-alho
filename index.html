@@ -3,23 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Portifolio
-    </title>
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f4a261;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                margin-top: 10px;
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <div class="container logo">
-            <div class="logo imagem"></div>
-            <div class="logo texto"></div>
-            <h1>LOGOTIPO</h1>
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="a">química</a></li>
-                <li><a href="a">física</a></li>
-                <li><a href="a">matemática</a></li>
-            </ul>
+        <div class="container">
+            <div class="logo">
+                <h1>LOGOTIPO</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Química</a></li>
+                    <li><a href="#">Física</a></li>
+                    <li><a href="#">Matemática</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 </body>
