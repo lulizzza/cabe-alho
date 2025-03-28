@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 .header{
     width: 100;
-    background-color: rgb(00, 00, FF);
+    background-color: rgb(72, 126, 188);
 display: flex;
 justify-content: space-between;
 
