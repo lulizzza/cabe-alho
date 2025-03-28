@@ -47,9 +47,9 @@ header {
     padding: 0 20px; /* Adiciona espaçamento interno nas laterais */
 }
 
-/* Estiliza o logotipo */
+/* Estiliza o titulo */
 .logo h1 {
-    font-size: 24px; /* Define o tamanho do texto do logotipo */
+    font-size: 24px; /* Define o tamanho do texto do titulo */
 }
 
 /* Estiliza a lista de navegação */
